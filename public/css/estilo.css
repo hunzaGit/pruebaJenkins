@@ -1,0 +1,108 @@
+.profile {
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.parallax {
+    height: 382px;
+    background-position-y: 5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+/*----------------  Social Icon  ------------*/
+
+.social-icons a.linkedin:hover {
+    color: #fff;
+    background: #0077B5;
+    border: solid 1px #0077B5;
+}
+
+.social-icons a.github:hover {
+    color: #fff;
+    background: #24292E;
+    border: solid 1px #24292E;
+}
+
+.social-icons a.cv:hover {
+    color: #fff;
+    background: #000;
+    border: solid 1px #000;
+}
+
+
+/*  -----------   LOGO LATEX    ------------*/
+
+.tex sub,
+.latex sub,
+.latex sup {
+    text-transform: uppercase;
+}
+
+.tex sub,
+.latex sub {
+    vertical-align: -0.0ex !important;
+    margin-left: -0.12em !important;
+    margin-right: -0.1em !important;
+}
+
+.tex,
+.latex,
+.tex sub,
+.latex sub {
+    font-size: 1em;
+}
+
+.latex sup {
+    font-size: 0.85em !important;
+    vertical-align: -0.1em !important;
+    margin-left: -0.2em !important;
+    margin-right: -0.2em !important;
+}
+
+
+/*------------------------ 7 Portfolio Page ------------------------*/
+
+.competencias_filter li {
+    float: left;
+    list-style: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 20px;
+    color: #c1c1c1;
+}
+
+.competencias_filter li:last-child {
+    margin-right: 0px;
+}
+
+.competencias_items .single_item {
+    margin-bottom: 0px;
+}
+
+.competencias_items .single_item img {
+    width: 100%;
+}
+
+.portfolio_items {
+    min-height: 817px;
+}
+
+
+/*------------------------ 8 Imagen proyecto ------------------------*/
+
+.img-proyecto {
+    padding-top: 35%;
+    padding-bottom: 47%;
+}
+
+.modal-rodri {
+    background-color: rgb(250, 250, 250);
+}
+
+.texto-negro h2 {
+    color: #000;
+}
